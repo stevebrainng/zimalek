@@ -7,7 +7,8 @@ export const ServicesCardList = styled.div`
   width: 100%;
   margin: 1rem 0;
   transition: all 0.3s ease-in-out;
-  height: auto;
+  max-height: auto;
+  min-height: 460px;
   border-radius: 5px;
 
   @media only screen and (min-width: 360px) and (max-width: 763px) {

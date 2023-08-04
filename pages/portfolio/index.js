@@ -3,7 +3,15 @@ import styled from "styled-components";
 import MainLayout from "../../components/Layouts/MainLayout";
 import PageBanner from "../../components/PageBanner";
 import AboutIndexCard from "../../components/AboutUs/AboutIndexCard";
-import { SiteContainer } from "../../styles/GlobalCss";
+import PortfolioShowcase from "../../components/Portfolio/PortfolioShowcase"
+import { ServicesCard } from "../../components/Services";
+import {
+  ContentRow,
+  GeneralMdText,
+  SiteContainer,
+  GeneralSmText,
+} from "../../styles/GlobalCss";
+
 
 const PortfolioSection = styled.section`
   padding: 3rem 0;
@@ -45,7 +53,7 @@ const Portfolio = () => {
         />
         <PortfolioSection>
           <SiteContainer>
-            <AboutIndexCard />
+            <PortfolioShowcase />
           </SiteContainer>
         </PortfolioSection>
       </MainLayout>
