@@ -192,7 +192,7 @@ const Header = () => {
                             </NavLink>
                           </Link>
 
-                          {/* <Link href="/our-team" passHref>
+                          <Link href="/our-team" passHref>
                             <NavLink
                               style={{
                                 borderBottom: "1px solid #eee",
@@ -201,7 +201,7 @@ const Header = () => {
                             >
                               Leadership
                             </NavLink>
-                          </Link> */}
+                          </Link>
 
                           <Link href="/partners" passHref>
                             <NavLink
@@ -306,6 +306,7 @@ const Header = () => {
           </NavBar>
         </NavContainter>
       </HeaderSection>
+
       {showMobile && (
         <MobileNavContainer>
           <MobileNavList>
@@ -348,7 +349,7 @@ const Header = () => {
                   <FaChevronRight size="20" color="#EF9801" />
                 </MobileNavRow>
 
-                  <Link href="/services" passHref>
+                <Link href="/services" passHref>
                   <MobileNav>Services</MobileNav>
                 </Link>
 

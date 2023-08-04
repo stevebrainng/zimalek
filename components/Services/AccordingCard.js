@@ -18,11 +18,11 @@ const AccordingCard = ({ title, content }) => {
                                     fontWeight="400"
                                     lineHeight="24px"
                                     textTransform="unset"
-                                    margin="1rem 0"
+                                    margin="0"
                                     color="#2b2d42"
 
                                     dangerouslySetInnerHTML={{
-                                        __html: title.split(' ').slice(0, 65).join(' ')
+                                        __html: title.split(' ').slice(0, 55).join(' ')
                                     }} />
                                 </>
                             )}
@@ -32,7 +32,7 @@ const AccordingCard = ({ title, content }) => {
                                 fontWeight="400"
                                 lineHeight="24px"
                                 textTransform="unset"
-                                margin="1rem 0"
+                                margin="0 1rem 0"
                                 color="#2b2d42" 
                                 dangerouslySetInnerHTML={{ __html: title }}/>
                         )
@@ -50,7 +50,7 @@ const AccordingCard = ({ title, content }) => {
                                 fontWeight="700"
                                 lineHeight="24px"
                                 textTransform="unset"
-                                margin="1rem 0"
+                                margin="0"
                                 color="#E50A0A" 
                                 onClick={() => setIsActive(!isActive)}
                             >
@@ -67,10 +67,10 @@ const AccordingCard = ({ title, content }) => {
                 fontWeight="400"
                 lineHeight="24px"
                 textTransform="unset"
-                margin="1rem 0"
+                margin=".4rem 0"
                 color="#2b2d42" 
                 
-                dangerouslySetInnerHTML={{ __html: content.split(' ').slice(-74).join(' ') }} />
+                dangerouslySetInnerHTML={{ __html: content.split(' ').slice(-84).join(' ') }} />
             }
 
         </div>

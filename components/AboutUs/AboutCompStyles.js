@@ -174,7 +174,7 @@ export const MainCustomButton = styled.div`
   }
 `;
 
-export const buttonAgAnimation = styled.div`
+export const ButtonAgAnimation = styled.div`
   z-index: 2;
   background-color: #993117;
   display: none;

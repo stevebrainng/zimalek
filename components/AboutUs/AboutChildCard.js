@@ -74,7 +74,7 @@ const AboutChildCard = () => {
                       dangerouslySetInnerHTML={{ __html: item.description }}
                     />
                     
-                    <ProductsLinks href={ item.url }>
+                    <ProductsLinks href={item.url} target="_blank">
                       <MainCustomButton className="IsTranparentDark WideBlock">
                         Project
                         <IsIconButton>
