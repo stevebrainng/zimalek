@@ -105,7 +105,7 @@ const HomeServicesGrid = () => {
               <HomeServiceListInner02>
                 <HomeServiceListContent>
                   <GeneralMdText
-                    margin="30px 0 20px"
+                    margin="10px 0 20px"
                     fontSize="20px"
                     fontWeight="600"
                     lineHeight="1.25"
@@ -115,16 +115,16 @@ const HomeServicesGrid = () => {
                     02
                   </GeneralMdText>
                   <GeneralMdText
-                    width="80%"
+                    width="100%"
                     textTransform="unset"
-                    margin="0 0 20px"
-                    fontSize="35px"
+                    margin="0 0 10px"
+                    fontSize="28px"
                     fontWeight="600"
                     lineHeight="1.25"
                     color="var(--white)"
                     textAlign="left"
                   >
-                    Cloud Security & Services
+                    Brand digital campaigns and Marketing
                   </GeneralMdText>
                   <GeneralSmText
                     textTransform="unset"
@@ -134,9 +134,10 @@ const HomeServicesGrid = () => {
                     color="var(--white)"
                     textAlign="left"
                   >
-                    Zimalek provides a state of the art Cyber security Services
-                    and Solutions for Network Assessment, Policy development,
-                    SOC Solution management...
+                    Zimalek is a full-serviced digital agency. We offer online solutions for all your digital channels.
+                    We have done marketing projects for political campaigns and other enterprise business using the latest 
+                    technology ideas ranging from branded airtime recharge cards, bulk sms, social media ads, media prints, etc. 
+                    All you need to do is discuss the facts with the professionals of the company to get the desired solution with ease.
                   </GeneralSmText>
                 </HomeServiceListContent>
               </HomeServiceListInner02>
@@ -148,7 +149,7 @@ const HomeServicesGrid = () => {
               <HomeServiceListInner03>
                 <HomeServiceListContent>
                   <GeneralMdText
-                    margin="30px 0 20px"
+                    margin="10px 0 10px"
                     fontSize="20px"
                     fontWeight="600"
                     lineHeight="1.25"
@@ -158,16 +159,16 @@ const HomeServicesGrid = () => {
                     03
                   </GeneralMdText>
                   <GeneralMdText
-                    width="80%"
+                    width="100%"
                     textTransform="unset"
-                    margin="0 0 20px"
+                    margin="0 0 10px"
                     fontSize="35px"
                     fontWeight="600"
                     lineHeight="1.25"
                     color="var(--white)"
                     textAlign="left"
                   >
-                    ICT Consultation & Maintenance
+                    Venture Capitalists
                   </GeneralMdText>
                   <GeneralSmText
                     textTransform="unset"
